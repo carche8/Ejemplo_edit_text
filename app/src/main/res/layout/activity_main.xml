@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/button"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/button"
+        android:text="Registrar"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="233dp" />
+
+    <EditText
+        android:id="@+id/et_Password"
+        android:layout_width="272dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:hint="@string/txt_password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="128dp" />
+
+    <EditText
+        android:id="@+id/et_Nombre"
+        android:layout_width="269dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:hint="@string/txt_nombre"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="48dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
